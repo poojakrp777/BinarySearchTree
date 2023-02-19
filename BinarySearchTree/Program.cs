@@ -11,6 +11,10 @@ namespace BinarySearchTree
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Binary search tree");
+            BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>(56);
+            binarySearchTree.Insert(30);
+            binarySearchTree.Insert(70);
+            binarySearchTree.Display();
             Console.ReadLine();
         }
     }
